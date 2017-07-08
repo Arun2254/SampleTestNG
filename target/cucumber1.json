@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "This is just a test scenario",
+        "description": "",
+        "id": "this-is-just-a-test-feature;this-is-just-a-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70690916,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "This is given statement",
+            "match": {
+              "location": "SampleStepDef.this_is_given_statement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36711,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "This is And statement",
+            "match": {
+              "location": "SampleStepDef.this_is_And_statement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30067,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is when statement",
+            "match": {
+              "location": "SampleStepDef.this_is_when_statement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34259,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is then statement",
+            "match": {
+              "location": "SampleStepDef.this_is_then_statement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is just a test feature",
+    "description": "",
+    "id": "this-is-just-a-test-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com.sample.testng/testsample.feature"
+  }
+]
